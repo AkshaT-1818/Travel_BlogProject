@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b29ef7;
+}
+
+.about-section {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    color: #555;
+    line-height: 1.8;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.about-section span {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.about-section span::after {
+    content: '🌍✈️';
+    margin-left: 5px;
+}

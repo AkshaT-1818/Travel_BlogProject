@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b29ef7;
+}
+
+ .blog-section {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post {
+    margin-bottom: 30px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.blog-post img {
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ 
+ 
